@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+*{
+  font-family: Cairo,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  scrollbar-color: #F90863 transparent;
+
+}
+body{
+  position: relative;
+  font-family:sans-serif cursive;
+  background: #d3e0dc5e;
+  scrollbar-color: #F90863 transparent;
+
+}
+body::-webkit-scrollbar-track {
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #F90863;
+}
+
+  .banner-caption {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef38;
+    text-align: center;
+    font-size: 2.5rem;
+text-transform: uppercase;
+color: #0302029d;
+font-family: Cairo,'Courier New', Courier, monospace;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+  }
+   .slider-banner{
+      height: 80vh !important;
+      width: 100vw !important;
+      background-size: cover;
+      position: relative;
+    } 
+   .container-section{
+     padding: 5%;
+   }
+   @keyframes truecheck falsecheck {
+    from{
+        position: relative;
+        right: 30px;
+     }
+     to{
+     position: relative;
+     left: 30px;
+    }
+    } @keyframes truecheck{
+         from{
+         position: relative;
+         top: 30px;
+        }
+         to{
+         position: relative;
+         bottom: 30px;
+        }
+     
+      }
+   
